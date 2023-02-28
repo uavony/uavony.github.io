@@ -12,8 +12,18 @@
 .root {
     padding-top: 32px;
     .content {
-        width: 60%;
         margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        width: 768px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .content {
+        width: 100%;
     }
 }
 </style>

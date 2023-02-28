@@ -5,12 +5,21 @@ const { theme } = useData()
 
 </script>
 
+<div class="title-box">Uavony's Webpage</div> 
 
-## I am uavony.<Tag text="hua" /> 
-
-Welcome to uavony's website.
+I am Uavony and this is my webpage. There’s a lot here, so thanks for stopping by!
 
 <ul>
     <li v-for="content in theme.cusData" ><a :href="content.url">{{content.title}}</a></li>
 </ul>
+
+<style lang="less" scoped>
+.title-box {
+    font-size: 2.5rem;
+    font-weight:700;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-align:center;
+}
+</style>
 
