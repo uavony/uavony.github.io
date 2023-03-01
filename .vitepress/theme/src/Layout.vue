@@ -2,8 +2,8 @@
 </script>
 
 <template>
-    <div class="root" >
-        <Content class="content" />
+    <div class="root">
+        <Content class="content vp-doc" />
     </div>
 </template>
 

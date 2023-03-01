@@ -1,6 +1,6 @@
-## css selector & box
+# css selector & box
 
-#### CSS选择器种类：
+## CSS选择器种类：
 
 - ID选择器，通过给元素设置id属性值，CSS中使用`#id属性值`的形式访问，例如`#cus`。
 - 类选择器，通过给元素设置class属性值，每个类用空格分割。
