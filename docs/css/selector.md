@@ -1,4 +1,4 @@
-# css selector & box
+# css selector
 
 ## CSS选择器种类：
 
