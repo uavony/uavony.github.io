@@ -1,10 +1,10 @@
 # Value and Unit ls（值与单位）
 
 值的种类：
-- 数字：<number> <precent>
-- 颜色：<color> rgb等 十六进制颜色值#xxxxxx:rgb
+- 数字：`<number>` `<precent>`
+- 颜色：`<color>` rgb等 十六进制颜色值#xxxxxx:rgb
 - 函数：calc rgb rgba hsl hsla
-- 图片：<imags>
+- 图片：`<imags>`
 - 位置：top left right center bottom
 
 单位：
