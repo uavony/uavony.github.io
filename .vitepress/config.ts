@@ -18,6 +18,7 @@ export default defineConfig({
         cusData:[] as CusContent[]
     },
     async transformPageData(pageData) {
+        console.log(pageData)
         var lastDotIndex = pageData.relativePath.lastIndexOf('.')
         var cusUrl = '/' + pageData.relativePath.substring(0, lastDotIndex).replace('index','')
         cusUrl.length > 1 && this.site.themeConfig.cusData.push({url: encodeURI(cusUrl), title: pageData.title || pageData.headers?.[0].title || cusUrl })
@@ -25,5 +26,9 @@ export default defineConfig({
         return {
             cusUrl
         }
+    },
+    async transformHead(context) {
+        console.log(context)
+        return context.head
     }
 })

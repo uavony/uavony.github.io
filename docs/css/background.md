@@ -1,3 +1,9 @@
+---
+lastUpdated: true
+createAt: 2023-02-28
+updateAt: 2023-03-03
+---
+
 # Background
 
 > background显示在盒子的内容与内边距上
@@ -13,3 +19,6 @@
 - background-size：px % ... cover contain
 - background-attachment：scroll（元素本身）,local（内容）,fixed（对窗口）
 - background-repeat：repeat|no-repeat|repeat-x|repeat-y
+
+> 背景叠加
+> 可以同时设置多个背景，放在前面的背景在上更加接近用户
