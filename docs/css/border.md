@@ -15,7 +15,7 @@
 
 <style>
 
-div[class|="box"] {
+div[class^="box"] {
     font-size: 5px;
 }
 
