@@ -14,6 +14,11 @@
 <div class="box2">border-radius: 20px 10px 10px</div>
 
 <style>
+
+div[class~="box"] {
+    font-size: 5px;
+}
+
 .box1 {
     background-color: blue;
     width: 100px;
