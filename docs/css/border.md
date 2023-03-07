@@ -13,6 +13,7 @@
 
 <style>
 .box {
+    background-color: blue;
     width: 100px;
     height: 50px;
     border-radius: 20px 10px;
