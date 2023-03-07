@@ -9,13 +9,22 @@
 - border-style
 - border-color
 
-<div class="box"></div>
+<div class="box1">border-radius: 20px 10px</div>
+
+<div class="box2">border-radius: 20px 10px 10px</div>
 
 <style>
-.box {
+.box1 {
     background-color: blue;
     width: 100px;
     height: 50px;
     border-radius: 20px 10px;
 }
+.box2 {
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px 10px 30px;
+}
+
 </style>
