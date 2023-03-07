@@ -38,7 +38,19 @@
   - `lowercase` 
   - `capitalize`
   - `full-width`
+- `text-decoration`：文字装饰，可以一次设置多个值，使用空格分割
+  > `text decoration`是一个缩写形式由`text-decoration-line` `text-decoration-style` `text-decoration-color`组成
+  - `none`
+  - `underline`
+  - `overline`
+  - `line-through`
+- `text-shadow`：x y radius color
+  > 可以通过分号`,`设置多个阴影
   
-
 文本布局风格
 > 作用于文本的间距以及其他布局功能的属性，比如，允许操纵行与字之间的空间，以及在内容框中，文本如何对齐。
+
+文本对齐
+- `text-align`：`left` `right` `center` `justify`
+- `line-height`：对于无单位的值是使用`值xfont-size`
+- `letter-spacing` 与 `word-spacing`
