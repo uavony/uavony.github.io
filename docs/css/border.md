@@ -8,3 +8,13 @@
 - border[-top|bottom|left|right]-width
 - border-style
 - border-color
+
+<div class="box"></div>
+
+<style>
+.box {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px 10px;
+}
+</style>
