@@ -11,6 +11,10 @@ const { theme } = useData()
 
 <p style="margin-top: 1rem;">Please work harder, for someone you want to see, for the things you want to do, for the person you want to be.</p>
 
+:::tip
+简单记录，防止忘记，并不是总结
+:::
+
 <ul>
     <li v-for="content in theme.cusData" ><a :href="content.url">{{content.title}}</a></li>
 </ul>
